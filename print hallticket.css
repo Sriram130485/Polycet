@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: poppins, serif;
+}
+
+.header-top {
+    padding: 10px 0px;
+}
+
+.right {
+    text-align: right;
+}
+
+.main-heading {
+    margin-top: 20px;
+    text-align: center;
+    color: #0e4d92;
+}
+
+.header-middle {
+    background-color: #0e4d92;
+}
+
+.nav-link {
+    color: white;
+    border-right: 2px solid rgba(169, 165, 165, 0.981);
+}
+
+.navbar-nav {
+    margin: 0px auto;
+}
+
+.navbar-toggler {
+    background-color: white;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .none {
+        display: none;
+    }
+}
+
+
+marquee {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0e4d92;
+    padding: 10px 0px;
+}
+
+marquee p {
+    cursor: pointer;
+}
+
+
+.backcolor {
+    background-color: #0e4d92;
+    color: white;
+    width: 100%;
+    height: 35vh;
+    padding: 25px;
+    text-align: justify;
+}
+
+.backcolor h4 {
+    text-align: center;
+}
+
+.backcolor hr {
+    width: 80px;
+    margin-left: 50%;
+    height: 2px;
+}
+
+
+.border-box {
+    border: 2px solid #0e4d92;
+    border-radius: 30px;
+    width: 100%;
+    position: relative;
+    height: 70vh;
+    z-index: 10;
+    overflow: hidden;
+}
+
+
+
+.bgcolor-matter {
+    background-color: #0e4d92;
+    padding: 20px;
+    margin: 50px;
+}
+
+.text-color {
+    color: white;
+}
+
+.foot-img img {
+    width: 120%;
+    height: 90px;
+
+}
+
+.card-text {
+    padding: 0px 40px;
+}
+
+.box-container2 {
+    color: #0e4d92;
+    font-size: 13px;
+}
+
+.skewed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background: #0E4D92;
+    z-index: -1;
+    transform: skewX(-20deg);
+    transform-origin: top left;
+}
+
+.part {
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-left: 31%;
+    color: white;
+    padding: 20px;
+}
+
+.part h4 {
+    word-spacing: 20px;
+
+}
+
+.part span {
+    color: #0e4d92;
+}
+
+.text span {
+    color: red;
+    margin-left: 30px;
+}
+
+.center-box {
+    border: 2px solid #0E4D92;
+    border-radius: 5px;
+    width: 70%;
+    height: 40%;
+    margin: 50px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 7px #0E4D92;
+}
+
+.center-box p {
+    color: #06294f;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.center-box input {
+    width: 90%;
+    height: 35px;
+    border-radius: 30px;
+    padding: 10px;
+}
